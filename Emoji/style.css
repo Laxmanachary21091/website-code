@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 40px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 50px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 3em; /* Larger font for the main title */
+    font-weight: bold; /* Bold font */
+}
+
+p {
+    margin-top: 10px; /* Space between paragraphs */
+}
+
+.buttons {
+    margin-top: 20px; /* Space above buttons */
+}
+
+.blue-button {
+    background-color: #3498db; /* Blue button color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.demo-request {
+    color: #3498db; /* Blue text color for demo request */
+    margin-left: 20px; /* Space between buttons */
+}
+
+.trusted-by {
+    margin-top: 30px; /* Space above trusted by section */
+}
+
+.logos img {
+    width: 50px; /* Adjust size as needed for logos */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logos */
+}
+
+.quote {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.quote .author {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Styles for "Build perfect docs, together" section */
+.docs-section {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.docs-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.docs-section a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.feature-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feature-box {
+    width: 30%;
+    text-align: center;
+}
+
+.feature-box img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
